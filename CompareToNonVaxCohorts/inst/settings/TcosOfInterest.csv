@@ -1,0 +1,4 @@
+targetId,comparatorId,outcomeIds,excludedCovariateConceptIds
+102,401,211; 212,
+106,401,211; 212,
+102,106,211; 212,

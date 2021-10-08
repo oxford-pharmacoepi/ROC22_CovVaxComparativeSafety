@@ -1,0 +1,6 @@
+atlasId,atlasName,cohortId,name
+102,vax1dose_offset_AZ,102,vax1dose_offset_AZ
+106,vax1dose_offset_pfizer,106,vax1dose_offset_pfizer
+211,VTE narrow,211,VTE narrow
+212,death,212,death
+401,study_pop_exit_on_vax,401,study_pop_exit_on_vax
