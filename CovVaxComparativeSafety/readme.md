@@ -1,4 +1,4 @@
-SkeletonComparativeEffectStudy
+CovVaxComparativeSafety
 ==============================
 
 
@@ -26,19 +26,19 @@ How to run
 3. Once installed, you can execute the study by modifying and using the code below. For your convenience, this code is also provided under `extras/CodeToRun.R`:
 
 	```r
-	library(SkeletonComparativeEffectStudy)
+	library(CovVaxComparativeSafety)
 
 	# Optional: specify where the temporary files (used by the Andromeda package) will be created:
 	options(andromedaTempFolder = "s:/andromedaTemp")
 	
 	# Maximum number of cores to be used:
-	maxCores <- parallel::detectCores()
+	maxCores <- 4
 	
 	# Minimum cell count when exporting data:
 	minCellCount <- 5
 	
 	# The folder where the study intermediate and result files will be written:
-	outputFolder <- "c:/SkeletonComparativeEffectStudy"
+	outputFolder <- "c:/CovVaxComparativeSafety"
 	
 	# Details for connecting to the server:
 	# See ?DatabaseConnector::createConnectionDetails for help
@@ -48,16 +48,16 @@ How to run
 									password = "secret")
 	
 	# The name of the database schema where the CDM data can be found:
-	cdmDatabaseSchema <- "cdm_synpuf"
+	cdmDatabaseSchema <- "my_db_schema"
 	
 	# The name of the database schema and table where the study-specific cohorts will be instantiated:
 	cohortDatabaseSchema <- "scratch.dbo"
 	cohortTable <- "my_study_cohorts"
 	
 	# Some meta-information that will be used by the export function:
-	databaseId <- "Synpuf"
-	databaseName <- "Medicare Claims Synthetic Public Use Files (SynPUFs)"
-	databaseDescription <- "Medicare Claims Synthetic Public Use Files (SynPUFs) were created to allow interested parties to gain familiarity using Medicare claims data while protecting beneficiary privacy. These files are intended to promote development of software and applications that utilize files in this format, train researchers on the use and complexities of Centers for Medicare and Medicaid Services (CMS) claims, and support safe data mining innovations. The SynPUFs were created by combining randomized information from multiple unique beneficiaries and changing variable values. This randomization and combining of beneficiary information ensures privacy of health information."
+	databaseId <- "my_db_id"
+	databaseName <- "My database description"
+	databaseDescription <- "....."
 	
 	# For some database platforms (e.g. Oracle): define a schema that can be used to emulate temp tables:
 	options(sqlRenderTempEmulationSchema = NULL)
@@ -95,14 +95,3 @@ How to run
   
   Note that you can save plots from within the Shiny app. It is possible to view results from more than one database by applying `prepareForEvidenceExplorer` to the Results file from each database, and using the same data folder. Set `blind = FALSE` if you wish to be unblinded to the final results.
 
-License
-=======
-The SkeletonComparativeEffectStudy package is licensed under Apache License 2.0
-
-Development
-===========
-SkeletonComparativeEffectStudy was developed in ATLAS and R Studio.
-
-### Development status
-
-Unknown
