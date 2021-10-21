@@ -1,5 +1,7 @@
-# renv::snapshot()
-# renv::restore()
+# install.packages("renv")
+# restart R after installation
+# renv::restore(packages = "renv")
+ renv::restore()
 library(CovVaxComparativeSafety)
 
 # Optional: specify where the temporary files (used by the Andromeda package) will be created:
