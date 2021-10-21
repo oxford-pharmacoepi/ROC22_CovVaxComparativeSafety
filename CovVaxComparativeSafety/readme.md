@@ -44,7 +44,7 @@ How to run
 	# See ?DatabaseConnector::createConnectionDetails for help
 	connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = "postgresql",
 									server = "some.server.com/ohdsi",
-									user = "joe",
+									user = "my_user_name",
 									password = "secret")
 	
 	# The name of the database schema where the CDM data can be found:
