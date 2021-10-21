@@ -919,298 +919,647 @@ targetId,comparatorId,outcomeId,outcomeName,type
 201,207,196625,Viral hepatitis A without hepatic coma,outcome
 201,207,197494,Viral hepatitis C,outcome
 201,207,4284533,Vitamin D-dependent rickets,outcome
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-,,,,
-104,102,438945,Accidental poisoning by benzodiazepine-based tranquilizer,outcome
-104,102,434455,Acquired claw toes,outcome
-104,102,316211,Acquired spondylolisthesis,outcome
-104,102,201612,Alcoholic liver damage,outcome
-104,102,438730,Alkalosis,outcome
-104,102,441258,Anemia in neoplastic disease,outcome
-104,102,432513,Animal bite wound,outcome
-104,102,4171556,Ankle ulcer,outcome
-104,102,4098292,Antiphospholipid syndrome,outcome
-104,102,77650,Aseptic necrosis of bone,outcome
-104,102,4239873,Benign neoplasm of ciliary body,outcome
-104,102,23731,Benign neoplasm of larynx,outcome
-104,102,199764,Benign neoplasm of ovary,outcome
-104,102,195500,Benign neoplasm of uterus,outcome
-104,102,4145627,Biliary calculus,outcome
-104,102,4108471,Burn of digit of hand,outcome
-104,102,75121,Burn of lower leg,outcome
-104,102,4284982,Calculus of bile duct without obstruction,outcome
-104,102,434327,Cannabis abuse,outcome
-104,102,78497,Cellulitis and abscess of toe,outcome
-104,102,4001454,Cervical spine ankylosis,outcome
-104,102,4068241,Chronic instability of knee,outcome
-104,102,195596,Chronic pancreatitis,outcome
-104,102,4206338,Chronic salpingitis,outcome
-104,102,4058397,Claustrophobia,outcome
-104,102,74816,Contusion of toe,outcome
-104,102,73302,Curvature of spine,outcome
-104,102,4151134,Cyst of pancreas,outcome
-104,102,77638,Displacement of intervertebral disc without myelopathy,outcome
-104,102,195864,Diverticulum of bladder,outcome
-104,102,201346,Edema of penis,outcome
-104,102,200461,Endometriosis of uterus,outcome
-104,102,377877,Esotropia,outcome
-104,102,193530,Follicular cyst of ovary,outcome
-104,102,4094822,Foreign body in respiratory tract,outcome
-104,102,443421,Gallbladder and bile duct calculi,outcome
-104,102,135215,Hashimoto thyroiditis,outcome
-104,102,442190,Hemorrhage of colon,outcome
-104,102,43020475,High risk heterosexual behavior,outcome
-104,102,194149,Hirschsprung?s disease,outcome
-104,102,443204,Human ehrlichiosis,outcome
-104,102,4226238,Hyperosmolar coma due to diabetes mellitus,outcome
-104,102,4032787,Hyperosmolarity,outcome
-104,102,197032,Hyperplasia of prostate,outcome
-104,102,140362,Hypoparathyroidism,outcome
-104,102,435371,Hypothermia,outcome
-104,102,138690,Infestation by Pediculus,outcome
-104,102,4152376,Intentional self poisoning,outcome
-104,102,192953,Intestinal adhesions with obstruction,outcome
-104,102,196347,Intestinal parasitism,outcome
-104,102,137977,Jaundice,outcome
-104,102,317510,Leukemia,outcome
-104,102,765053,Lump in right breast,outcome
-104,102,378165,Nystagmus,outcome
-104,102,434085,Obstruction of duodenum,outcome
-104,102,4147016,Open wound of buttock,outcome
-104,102,4129404,Open wound of upper arm,outcome
-104,102,438120,Opioid dependence,outcome
-104,102,75924,Osteodystrophy,outcome
-104,102,432594,Osteomalacia,outcome
-104,102,30365,Panhypopituitarism,outcome
-104,102,4108371,Peripheral gangrene,outcome
-104,102,440367,Plasmacytosis,outcome
-104,102,439233,Poisoning by antidiabetic agent,outcome
-104,102,442149,Poisoning by bee sting,outcome
-104,102,4314086,Poisoning due to sting of ant,outcome
-104,102,4147660,Postural kyphosis,outcome
-104,102,434319,Premature ejaculation,outcome
-104,102,199754,Primary malignant neoplasm of pancreas,outcome
-104,102,4311499,Primary malignant neoplasm of respiratory tract,outcome
-104,102,436635,Primary malignant neoplasm of sigmoid colon,outcome
-104,102,196044,Primary malignant neoplasm of stomach,outcome
-104,102,433716,Primary malignant neoplasm of testis,outcome
-104,102,133424,Primary malignant neoplasm of thyroid gland,outcome
-104,102,194997,Prostatitis,outcome
-104,102,80286,Prosthetic joint loosening,outcome
-104,102,443274,Psychostimulant dependence,outcome
-104,102,314962,Raynaud?s disease,outcome
-104,102,37018294,Residual osteitis,outcome
-104,102,4288241,Salmonella enterica subspecies arizonae infection,outcome
-104,102,45757269,Sclerosing mesenteritis,outcome
-104,102,74722,Secondary localized osteoarthrosis of pelvic region,outcome
-104,102,200348,Secondary malignant neoplasm of large intestine,outcome
-104,102,43020446,Sedative withdrawal,outcome
-104,102,74194,Sprain of spinal ligament,outcome
-104,102,4194207,Tailor?s bunion,outcome
-104,102,193521,Tropical sprue,outcome
-104,102,40482801,Type II diabetes mellitus uncontrolled,outcome
-104,102,74719,Ulcer of foot,outcome
-104,103,196625,Viral hepatitis A without hepatic coma,outcome
-104,103,197494,Viral hepatitis C,outcome
-104,103,4284533,Vitamin D-dependent rickets,outcome
-,,,,
-,,,,
-,,,,
-,,,,
-104,102,438945,Accidental poisoning by benzodiazepine-based tranquilizer,outcome
-104,102,434455,Acquired claw toes,outcome
-104,102,316211,Acquired spondylolisthesis,outcome
-104,102,201612,Alcoholic liver damage,outcome
-104,102,438730,Alkalosis,outcome
-104,102,441258,Anemia in neoplastic disease,outcome
-104,102,432513,Animal bite wound,outcome
-104,102,4171556,Ankle ulcer,outcome
-104,102,4098292,Antiphospholipid syndrome,outcome
-104,102,77650,Aseptic necrosis of bone,outcome
-104,102,4239873,Benign neoplasm of ciliary body,outcome
-104,102,23731,Benign neoplasm of larynx,outcome
-104,102,199764,Benign neoplasm of ovary,outcome
-104,102,195500,Benign neoplasm of uterus,outcome
-104,102,4145627,Biliary calculus,outcome
-104,102,4108471,Burn of digit of hand,outcome
-104,102,75121,Burn of lower leg,outcome
-104,102,4284982,Calculus of bile duct without obstruction,outcome
-104,102,434327,Cannabis abuse,outcome
-104,102,78497,Cellulitis and abscess of toe,outcome
-104,102,4001454,Cervical spine ankylosis,outcome
-104,102,4068241,Chronic instability of knee,outcome
-104,102,195596,Chronic pancreatitis,outcome
-104,102,4206338,Chronic salpingitis,outcome
-104,102,4058397,Claustrophobia,outcome
-104,102,74816,Contusion of toe,outcome
-104,102,73302,Curvature of spine,outcome
-104,102,4151134,Cyst of pancreas,outcome
-104,102,77638,Displacement of intervertebral disc without myelopathy,outcome
-104,102,195864,Diverticulum of bladder,outcome
-104,102,201346,Edema of penis,outcome
-104,102,200461,Endometriosis of uterus,outcome
-104,102,377877,Esotropia,outcome
-104,102,193530,Follicular cyst of ovary,outcome
-104,102,4094822,Foreign body in respiratory tract,outcome
-104,102,443421,Gallbladder and bile duct calculi,outcome
-104,102,135215,Hashimoto thyroiditis,outcome
-104,102,442190,Hemorrhage of colon,outcome
-104,102,43020475,High risk heterosexual behavior,outcome
-104,102,194149,Hirschsprung?s disease,outcome
-104,102,443204,Human ehrlichiosis,outcome
-104,102,4226238,Hyperosmolar coma due to diabetes mellitus,outcome
-104,102,4032787,Hyperosmolarity,outcome
-104,102,197032,Hyperplasia of prostate,outcome
-104,102,140362,Hypoparathyroidism,outcome
-104,102,435371,Hypothermia,outcome
-104,102,138690,Infestation by Pediculus,outcome
-104,102,4152376,Intentional self poisoning,outcome
-104,102,192953,Intestinal adhesions with obstruction,outcome
-104,102,196347,Intestinal parasitism,outcome
-104,102,137977,Jaundice,outcome
-104,102,317510,Leukemia,outcome
-104,102,765053,Lump in right breast,outcome
-104,102,378165,Nystagmus,outcome
-104,102,434085,Obstruction of duodenum,outcome
-104,102,4147016,Open wound of buttock,outcome
-104,102,4129404,Open wound of upper arm,outcome
-104,102,438120,Opioid dependence,outcome
-104,102,75924,Osteodystrophy,outcome
-104,102,432594,Osteomalacia,outcome
-104,102,30365,Panhypopituitarism,outcome
-104,102,4108371,Peripheral gangrene,outcome
-104,102,440367,Plasmacytosis,outcome
-104,102,439233,Poisoning by antidiabetic agent,outcome
-104,102,442149,Poisoning by bee sting,outcome
-104,102,4314086,Poisoning due to sting of ant,outcome
-104,102,4147660,Postural kyphosis,outcome
-104,102,434319,Premature ejaculation,outcome
-104,102,199754,Primary malignant neoplasm of pancreas,outcome
-104,102,4311499,Primary malignant neoplasm of respiratory tract,outcome
-104,102,436635,Primary malignant neoplasm of sigmoid colon,outcome
-104,102,196044,Primary malignant neoplasm of stomach,outcome
-104,102,433716,Primary malignant neoplasm of testis,outcome
-104,102,133424,Primary malignant neoplasm of thyroid gland,outcome
-104,102,194997,Prostatitis,outcome
-104,102,80286,Prosthetic joint loosening,outcome
-104,102,443274,Psychostimulant dependence,outcome
-104,102,314962,Raynaud?s disease,outcome
-104,102,37018294,Residual osteitis,outcome
-104,102,4288241,Salmonella enterica subspecies arizonae infection,outcome
-104,102,45757269,Sclerosing mesenteritis,outcome
-104,102,74722,Secondary localized osteoarthrosis of pelvic region,outcome
-104,102,200348,Secondary malignant neoplasm of large intestine,outcome
-104,102,43020446,Sedative withdrawal,outcome
-104,102,74194,Sprain of spinal ligament,outcome
-104,102,4194207,Tailor?s bunion,outcome
-104,102,193521,Tropical sprue,outcome
-104,102,40482801,Type II diabetes mellitus uncontrolled,outcome
-104,102,74719,Ulcer of foot,outcome
-104,103,196625,Viral hepatitis A without hepatic coma,outcome
-104,103,197494,Viral hepatitis C,outcome
-104,103,4284533,Vitamin D-dependent rickets,outcome
+101,104,438945,Accidental poisoning by benzodiazepine-based tranquilizer,outcome
+101,104,434455,Acquired claw toes,outcome
+101,104,316211,Acquired spondylolisthesis,outcome
+101,104,201612,Alcoholic liver damage,outcome
+101,104,438730,Alkalosis,outcome
+101,104,441258,Anemia in neoplastic disease,outcome
+101,104,432513,Animal bite wound,outcome
+101,104,4171556,Ankle ulcer,outcome
+101,104,4098292,Antiphospholipid syndrome,outcome
+101,104,77650,Aseptic necrosis of bone,outcome
+101,104,4239873,Benign neoplasm of ciliary body,outcome
+101,104,23731,Benign neoplasm of larynx,outcome
+101,104,199764,Benign neoplasm of ovary,outcome
+101,104,195500,Benign neoplasm of uterus,outcome
+101,104,4145627,Biliary calculus,outcome
+101,104,4108471,Burn of digit of hand,outcome
+101,104,75121,Burn of lower leg,outcome
+101,104,4284982,Calculus of bile duct without obstruction,outcome
+101,104,434327,Cannabis abuse,outcome
+101,104,78497,Cellulitis and abscess of toe,outcome
+101,104,4001454,Cervical spine ankylosis,outcome
+101,104,4068241,Chronic instability of knee,outcome
+101,104,195596,Chronic pancreatitis,outcome
+101,104,4206338,Chronic salpingitis,outcome
+101,104,4058397,Claustrophobia,outcome
+101,104,74816,Contusion of toe,outcome
+101,104,73302,Curvature of spine,outcome
+101,104,4151134,Cyst of pancreas,outcome
+101,104,77638,Displacement of intervertebral disc without myelopathy,outcome
+101,104,195864,Diverticulum of bladder,outcome
+101,104,201346,Edema of penis,outcome
+101,104,200461,Endometriosis of uterus,outcome
+101,104,377877,Esotropia,outcome
+101,104,193530,Follicular cyst of ovary,outcome
+101,104,4094822,Foreign body in respiratory tract,outcome
+101,104,443421,Gallbladder and bile duct calculi,outcome
+101,104,135215,Hashimoto thyroiditis,outcome
+101,104,442190,Hemorrhage of colon,outcome
+101,104,43020475,High risk heterosexual behavior,outcome
+101,104,194149,Hirschsprung?s disease,outcome
+101,104,443204,Human ehrlichiosis,outcome
+101,104,4226238,Hyperosmolar coma due to diabetes mellitus,outcome
+101,104,4032787,Hyperosmolarity,outcome
+101,104,197032,Hyperplasia of prostate,outcome
+101,104,140362,Hypoparathyroidism,outcome
+101,104,435371,Hypothermia,outcome
+101,104,138690,Infestation by Pediculus,outcome
+101,104,4152376,Intentional self poisoning,outcome
+101,104,192953,Intestinal adhesions with obstruction,outcome
+101,104,196347,Intestinal parasitism,outcome
+101,104,137977,Jaundice,outcome
+101,104,317510,Leukemia,outcome
+101,104,765053,Lump in right breast,outcome
+101,104,378165,Nystagmus,outcome
+101,104,434085,Obstruction of duodenum,outcome
+101,104,4147016,Open wound of buttock,outcome
+101,104,4129404,Open wound of upper arm,outcome
+101,104,438120,Opioid dependence,outcome
+101,104,75924,Osteodystrophy,outcome
+101,104,432594,Osteomalacia,outcome
+101,104,30365,Panhypopituitarism,outcome
+101,104,4108371,Peripheral gangrene,outcome
+101,104,440367,Plasmacytosis,outcome
+101,104,439233,Poisoning by antidiabetic agent,outcome
+101,104,442149,Poisoning by bee sting,outcome
+101,104,4314086,Poisoning due to sting of ant,outcome
+101,104,4147660,Postural kyphosis,outcome
+101,104,434319,Premature ejaculation,outcome
+101,104,199754,Primary malignant neoplasm of pancreas,outcome
+101,104,4311499,Primary malignant neoplasm of respiratory tract,outcome
+101,104,436635,Primary malignant neoplasm of sigmoid colon,outcome
+101,104,196044,Primary malignant neoplasm of stomach,outcome
+101,104,433716,Primary malignant neoplasm of testis,outcome
+101,104,133424,Primary malignant neoplasm of thyroid gland,outcome
+101,104,194997,Prostatitis,outcome
+101,104,80286,Prosthetic joint loosening,outcome
+101,104,443274,Psychostimulant dependence,outcome
+101,104,314962,Raynaud?s disease,outcome
+101,104,37018294,Residual osteitis,outcome
+101,104,4288241,Salmonella enterica subspecies arizonae infection,outcome
+101,104,45757269,Sclerosing mesenteritis,outcome
+101,104,74722,Secondary localized osteoarthrosis of pelvic region,outcome
+101,104,200348,Secondary malignant neoplasm of large intestine,outcome
+101,104,43020446,Sedative withdrawal,outcome
+101,104,74194,Sprain of spinal ligament,outcome
+101,104,4194207,Tailor?s bunion,outcome
+101,104,193521,Tropical sprue,outcome
+101,104,40482801,Type II diabetes mellitus uncontrolled,outcome
+101,104,74719,Ulcer of foot,outcome
+101,104,196625,Viral hepatitis A without hepatic coma,outcome
+101,104,197494,Viral hepatitis C,outcome
+101,104,4284533,Vitamin D-dependent rickets,outcome
+102,103,438945,Accidental poisoning by benzodiazepine-based tranquilizer,outcome
+102,103,434455,Acquired claw toes,outcome
+102,103,316211,Acquired spondylolisthesis,outcome
+102,103,201612,Alcoholic liver damage,outcome
+102,103,438730,Alkalosis,outcome
+102,103,441258,Anemia in neoplastic disease,outcome
+102,103,432513,Animal bite wound,outcome
+102,103,4171556,Ankle ulcer,outcome
+102,103,4098292,Antiphospholipid syndrome,outcome
+102,103,77650,Aseptic necrosis of bone,outcome
+102,103,4239873,Benign neoplasm of ciliary body,outcome
+102,103,23731,Benign neoplasm of larynx,outcome
+102,103,199764,Benign neoplasm of ovary,outcome
+102,103,195500,Benign neoplasm of uterus,outcome
+102,103,4145627,Biliary calculus,outcome
+102,103,4108471,Burn of digit of hand,outcome
+102,103,75121,Burn of lower leg,outcome
+102,103,4284982,Calculus of bile duct without obstruction,outcome
+102,103,434327,Cannabis abuse,outcome
+102,103,78497,Cellulitis and abscess of toe,outcome
+102,103,4001454,Cervical spine ankylosis,outcome
+102,103,4068241,Chronic instability of knee,outcome
+102,103,195596,Chronic pancreatitis,outcome
+102,103,4206338,Chronic salpingitis,outcome
+102,103,4058397,Claustrophobia,outcome
+102,103,74816,Contusion of toe,outcome
+102,103,73302,Curvature of spine,outcome
+102,103,4151134,Cyst of pancreas,outcome
+102,103,77638,Displacement of intervertebral disc without myelopathy,outcome
+102,103,195864,Diverticulum of bladder,outcome
+102,103,201346,Edema of penis,outcome
+102,103,200461,Endometriosis of uterus,outcome
+102,103,377877,Esotropia,outcome
+102,103,193530,Follicular cyst of ovary,outcome
+102,103,4094822,Foreign body in respiratory tract,outcome
+102,103,443421,Gallbladder and bile duct calculi,outcome
+102,103,135215,Hashimoto thyroiditis,outcome
+102,103,442190,Hemorrhage of colon,outcome
+102,103,43020475,High risk heterosexual behavior,outcome
+102,103,194149,Hirschsprung?s disease,outcome
+102,103,443204,Human ehrlichiosis,outcome
+102,103,4226238,Hyperosmolar coma due to diabetes mellitus,outcome
+102,103,4032787,Hyperosmolarity,outcome
+102,103,197032,Hyperplasia of prostate,outcome
+102,103,140362,Hypoparathyroidism,outcome
+102,103,435371,Hypothermia,outcome
+102,103,138690,Infestation by Pediculus,outcome
+102,103,4152376,Intentional self poisoning,outcome
+102,103,192953,Intestinal adhesions with obstruction,outcome
+102,103,196347,Intestinal parasitism,outcome
+102,103,137977,Jaundice,outcome
+102,103,317510,Leukemia,outcome
+102,103,765053,Lump in right breast,outcome
+102,103,378165,Nystagmus,outcome
+102,103,434085,Obstruction of duodenum,outcome
+102,103,4147016,Open wound of buttock,outcome
+102,103,4129404,Open wound of upper arm,outcome
+102,103,438120,Opioid dependence,outcome
+102,103,75924,Osteodystrophy,outcome
+102,103,432594,Osteomalacia,outcome
+102,103,30365,Panhypopituitarism,outcome
+102,103,4108371,Peripheral gangrene,outcome
+102,103,440367,Plasmacytosis,outcome
+102,103,439233,Poisoning by antidiabetic agent,outcome
+102,103,442149,Poisoning by bee sting,outcome
+102,103,4314086,Poisoning due to sting of ant,outcome
+102,103,4147660,Postural kyphosis,outcome
+102,103,434319,Premature ejaculation,outcome
+102,103,199754,Primary malignant neoplasm of pancreas,outcome
+102,103,4311499,Primary malignant neoplasm of respiratory tract,outcome
+102,103,436635,Primary malignant neoplasm of sigmoid colon,outcome
+102,103,196044,Primary malignant neoplasm of stomach,outcome
+102,103,433716,Primary malignant neoplasm of testis,outcome
+102,103,133424,Primary malignant neoplasm of thyroid gland,outcome
+102,103,194997,Prostatitis,outcome
+102,103,80286,Prosthetic joint loosening,outcome
+102,103,443274,Psychostimulant dependence,outcome
+102,103,314962,Raynaud?s disease,outcome
+102,103,37018294,Residual osteitis,outcome
+102,103,4288241,Salmonella enterica subspecies arizonae infection,outcome
+102,103,45757269,Sclerosing mesenteritis,outcome
+102,103,74722,Secondary localized osteoarthrosis of pelvic region,outcome
+102,103,200348,Secondary malignant neoplasm of large intestine,outcome
+102,103,43020446,Sedative withdrawal,outcome
+102,103,74194,Sprain of spinal ligament,outcome
+102,103,4194207,Tailor?s bunion,outcome
+102,103,193521,Tropical sprue,outcome
+102,103,40482801,Type II diabetes mellitus uncontrolled,outcome
+102,103,74719,Ulcer of foot,outcome
+102,103,196625,Viral hepatitis A without hepatic coma,outcome
+102,103,197494,Viral hepatitis C,outcome
+102,103,4284533,Vitamin D-dependent rickets,outcome
+202,203,438945,Accidental poisoning by benzodiazepine-based tranquilizer,outcome
+202,203,434455,Acquired claw toes,outcome
+202,203,316211,Acquired spondylolisthesis,outcome
+202,203,201612,Alcoholic liver damage,outcome
+202,203,438730,Alkalosis,outcome
+202,203,441258,Anemia in neoplastic disease,outcome
+202,203,432513,Animal bite wound,outcome
+202,203,4171556,Ankle ulcer,outcome
+202,203,4098292,Antiphospholipid syndrome,outcome
+202,203,77650,Aseptic necrosis of bone,outcome
+202,203,4239873,Benign neoplasm of ciliary body,outcome
+202,203,23731,Benign neoplasm of larynx,outcome
+202,203,199764,Benign neoplasm of ovary,outcome
+202,203,195500,Benign neoplasm of uterus,outcome
+202,203,4145627,Biliary calculus,outcome
+202,203,4108471,Burn of digit of hand,outcome
+202,203,75121,Burn of lower leg,outcome
+202,203,4284982,Calculus of bile duct without obstruction,outcome
+202,203,434327,Cannabis abuse,outcome
+202,203,78497,Cellulitis and abscess of toe,outcome
+202,203,4001454,Cervical spine ankylosis,outcome
+202,203,4068241,Chronic instability of knee,outcome
+202,203,195596,Chronic pancreatitis,outcome
+202,203,4206338,Chronic salpingitis,outcome
+202,203,4058397,Claustrophobia,outcome
+202,203,74816,Contusion of toe,outcome
+202,203,73302,Curvature of spine,outcome
+202,203,4151134,Cyst of pancreas,outcome
+202,203,77638,Displacement of intervertebral disc without myelopathy,outcome
+202,203,195864,Diverticulum of bladder,outcome
+202,203,201346,Edema of penis,outcome
+202,203,200461,Endometriosis of uterus,outcome
+202,203,377877,Esotropia,outcome
+202,203,193530,Follicular cyst of ovary,outcome
+202,203,4094822,Foreign body in respiratory tract,outcome
+202,203,443421,Gallbladder and bile duct calculi,outcome
+202,203,135215,Hashimoto thyroiditis,outcome
+202,203,442190,Hemorrhage of colon,outcome
+202,203,43020475,High risk heterosexual behavior,outcome
+202,203,194149,Hirschsprung?s disease,outcome
+202,203,443204,Human ehrlichiosis,outcome
+202,203,4226238,Hyperosmolar coma due to diabetes mellitus,outcome
+202,203,4032787,Hyperosmolarity,outcome
+202,203,197032,Hyperplasia of prostate,outcome
+202,203,140362,Hypoparathyroidism,outcome
+202,203,435371,Hypothermia,outcome
+202,203,138690,Infestation by Pediculus,outcome
+202,203,4152376,Intentional self poisoning,outcome
+202,203,192953,Intestinal adhesions with obstruction,outcome
+202,203,196347,Intestinal parasitism,outcome
+202,203,137977,Jaundice,outcome
+202,203,317510,Leukemia,outcome
+202,203,765053,Lump in right breast,outcome
+202,203,378165,Nystagmus,outcome
+202,203,434085,Obstruction of duodenum,outcome
+202,203,4147016,Open wound of buttock,outcome
+202,203,4129404,Open wound of upper arm,outcome
+202,203,438120,Opioid dependence,outcome
+202,203,75924,Osteodystrophy,outcome
+202,203,432594,Osteomalacia,outcome
+202,203,30365,Panhypopituitarism,outcome
+202,203,4108371,Peripheral gangrene,outcome
+202,203,440367,Plasmacytosis,outcome
+202,203,439233,Poisoning by antidiabetic agent,outcome
+202,203,442149,Poisoning by bee sting,outcome
+202,203,4314086,Poisoning due to sting of ant,outcome
+202,203,4147660,Postural kyphosis,outcome
+202,203,434319,Premature ejaculation,outcome
+202,203,199754,Primary malignant neoplasm of pancreas,outcome
+202,203,4311499,Primary malignant neoplasm of respiratory tract,outcome
+202,203,436635,Primary malignant neoplasm of sigmoid colon,outcome
+202,203,196044,Primary malignant neoplasm of stomach,outcome
+202,203,433716,Primary malignant neoplasm of testis,outcome
+202,203,133424,Primary malignant neoplasm of thyroid gland,outcome
+202,203,194997,Prostatitis,outcome
+202,203,80286,Prosthetic joint loosening,outcome
+202,203,443274,Psychostimulant dependence,outcome
+202,203,314962,Raynaud?s disease,outcome
+202,203,37018294,Residual osteitis,outcome
+202,203,4288241,Salmonella enterica subspecies arizonae infection,outcome
+202,203,45757269,Sclerosing mesenteritis,outcome
+202,203,74722,Secondary localized osteoarthrosis of pelvic region,outcome
+202,203,200348,Secondary malignant neoplasm of large intestine,outcome
+202,203,43020446,Sedative withdrawal,outcome
+202,203,74194,Sprain of spinal ligament,outcome
+202,203,4194207,Tailor?s bunion,outcome
+202,203,193521,Tropical sprue,outcome
+202,203,40482801,Type II diabetes mellitus uncontrolled,outcome
+202,203,74719,Ulcer of foot,outcome
+202,203,196625,Viral hepatitis A without hepatic coma,outcome
+202,203,197494,Viral hepatitis C,outcome
+202,203,4284533,Vitamin D-dependent rickets,outcome
+202,205,438945,Accidental poisoning by benzodiazepine-based tranquilizer,outcome
+202,205,434455,Acquired claw toes,outcome
+202,205,316211,Acquired spondylolisthesis,outcome
+202,205,201612,Alcoholic liver damage,outcome
+202,205,438730,Alkalosis,outcome
+202,205,441258,Anemia in neoplastic disease,outcome
+202,205,432513,Animal bite wound,outcome
+202,205,4171556,Ankle ulcer,outcome
+202,205,4098292,Antiphospholipid syndrome,outcome
+202,205,77650,Aseptic necrosis of bone,outcome
+202,205,4239873,Benign neoplasm of ciliary body,outcome
+202,205,23731,Benign neoplasm of larynx,outcome
+202,205,199764,Benign neoplasm of ovary,outcome
+202,205,195500,Benign neoplasm of uterus,outcome
+202,205,4145627,Biliary calculus,outcome
+202,205,4108471,Burn of digit of hand,outcome
+202,205,75121,Burn of lower leg,outcome
+202,205,4284982,Calculus of bile duct without obstruction,outcome
+202,205,434327,Cannabis abuse,outcome
+202,205,78497,Cellulitis and abscess of toe,outcome
+202,205,4001454,Cervical spine ankylosis,outcome
+202,205,4068241,Chronic instability of knee,outcome
+202,205,195596,Chronic pancreatitis,outcome
+202,205,4206338,Chronic salpingitis,outcome
+202,205,4058397,Claustrophobia,outcome
+202,205,74816,Contusion of toe,outcome
+202,205,73302,Curvature of spine,outcome
+202,205,4151134,Cyst of pancreas,outcome
+202,205,77638,Displacement of intervertebral disc without myelopathy,outcome
+202,205,195864,Diverticulum of bladder,outcome
+202,205,201346,Edema of penis,outcome
+202,205,200461,Endometriosis of uterus,outcome
+202,205,377877,Esotropia,outcome
+202,205,193530,Follicular cyst of ovary,outcome
+202,205,4094822,Foreign body in respiratory tract,outcome
+202,205,443421,Gallbladder and bile duct calculi,outcome
+202,205,135215,Hashimoto thyroiditis,outcome
+202,205,442190,Hemorrhage of colon,outcome
+202,205,43020475,High risk heterosexual behavior,outcome
+202,205,194149,Hirschsprung?s disease,outcome
+202,205,443204,Human ehrlichiosis,outcome
+202,205,4226238,Hyperosmolar coma due to diabetes mellitus,outcome
+202,205,4032787,Hyperosmolarity,outcome
+202,205,197032,Hyperplasia of prostate,outcome
+202,205,140362,Hypoparathyroidism,outcome
+202,205,435371,Hypothermia,outcome
+202,205,138690,Infestation by Pediculus,outcome
+202,205,4152376,Intentional self poisoning,outcome
+202,205,192953,Intestinal adhesions with obstruction,outcome
+202,205,196347,Intestinal parasitism,outcome
+202,205,137977,Jaundice,outcome
+202,205,317510,Leukemia,outcome
+202,205,765053,Lump in right breast,outcome
+202,205,378165,Nystagmus,outcome
+202,205,434085,Obstruction of duodenum,outcome
+202,205,4147016,Open wound of buttock,outcome
+202,205,4129404,Open wound of upper arm,outcome
+202,205,438120,Opioid dependence,outcome
+202,205,75924,Osteodystrophy,outcome
+202,205,432594,Osteomalacia,outcome
+202,205,30365,Panhypopituitarism,outcome
+202,205,4108371,Peripheral gangrene,outcome
+202,205,440367,Plasmacytosis,outcome
+202,205,439233,Poisoning by antidiabetic agent,outcome
+202,205,442149,Poisoning by bee sting,outcome
+202,205,4314086,Poisoning due to sting of ant,outcome
+202,205,4147660,Postural kyphosis,outcome
+202,205,434319,Premature ejaculation,outcome
+202,205,199754,Primary malignant neoplasm of pancreas,outcome
+202,205,4311499,Primary malignant neoplasm of respiratory tract,outcome
+202,205,436635,Primary malignant neoplasm of sigmoid colon,outcome
+202,205,196044,Primary malignant neoplasm of stomach,outcome
+202,205,433716,Primary malignant neoplasm of testis,outcome
+202,205,133424,Primary malignant neoplasm of thyroid gland,outcome
+202,205,194997,Prostatitis,outcome
+202,205,80286,Prosthetic joint loosening,outcome
+202,205,443274,Psychostimulant dependence,outcome
+202,205,314962,Raynaud?s disease,outcome
+202,205,37018294,Residual osteitis,outcome
+202,205,4288241,Salmonella enterica subspecies arizonae infection,outcome
+202,205,45757269,Sclerosing mesenteritis,outcome
+202,205,74722,Secondary localized osteoarthrosis of pelvic region,outcome
+202,205,200348,Secondary malignant neoplasm of large intestine,outcome
+202,205,43020446,Sedative withdrawal,outcome
+202,205,74194,Sprain of spinal ligament,outcome
+202,205,4194207,Tailor?s bunion,outcome
+202,205,193521,Tropical sprue,outcome
+202,205,40482801,Type II diabetes mellitus uncontrolled,outcome
+202,205,74719,Ulcer of foot,outcome
+202,205,196625,Viral hepatitis A without hepatic coma,outcome
+202,205,197494,Viral hepatitis C,outcome
+202,205,4284533,Vitamin D-dependent rickets,outcome
+203,207,438945,Accidental poisoning by benzodiazepine-based tranquilizer,outcome
+203,207,434455,Acquired claw toes,outcome
+203,207,316211,Acquired spondylolisthesis,outcome
+203,207,201612,Alcoholic liver damage,outcome
+203,207,438730,Alkalosis,outcome
+203,207,441258,Anemia in neoplastic disease,outcome
+203,207,432513,Animal bite wound,outcome
+203,207,4171556,Ankle ulcer,outcome
+203,207,4098292,Antiphospholipid syndrome,outcome
+203,207,77650,Aseptic necrosis of bone,outcome
+203,207,4239873,Benign neoplasm of ciliary body,outcome
+203,207,23731,Benign neoplasm of larynx,outcome
+203,207,199764,Benign neoplasm of ovary,outcome
+203,207,195500,Benign neoplasm of uterus,outcome
+203,207,4145627,Biliary calculus,outcome
+203,207,4108471,Burn of digit of hand,outcome
+203,207,75121,Burn of lower leg,outcome
+203,207,4284982,Calculus of bile duct without obstruction,outcome
+203,207,434327,Cannabis abuse,outcome
+203,207,78497,Cellulitis and abscess of toe,outcome
+203,207,4001454,Cervical spine ankylosis,outcome
+203,207,4068241,Chronic instability of knee,outcome
+203,207,195596,Chronic pancreatitis,outcome
+203,207,4206338,Chronic salpingitis,outcome
+203,207,4058397,Claustrophobia,outcome
+203,207,74816,Contusion of toe,outcome
+203,207,73302,Curvature of spine,outcome
+203,207,4151134,Cyst of pancreas,outcome
+203,207,77638,Displacement of intervertebral disc without myelopathy,outcome
+203,207,195864,Diverticulum of bladder,outcome
+203,207,201346,Edema of penis,outcome
+203,207,200461,Endometriosis of uterus,outcome
+203,207,377877,Esotropia,outcome
+203,207,193530,Follicular cyst of ovary,outcome
+203,207,4094822,Foreign body in respiratory tract,outcome
+203,207,443421,Gallbladder and bile duct calculi,outcome
+203,207,135215,Hashimoto thyroiditis,outcome
+203,207,442190,Hemorrhage of colon,outcome
+203,207,43020475,High risk heterosexual behavior,outcome
+203,207,194149,Hirschsprung?s disease,outcome
+203,207,443204,Human ehrlichiosis,outcome
+203,207,4226238,Hyperosmolar coma due to diabetes mellitus,outcome
+203,207,4032787,Hyperosmolarity,outcome
+203,207,197032,Hyperplasia of prostate,outcome
+203,207,140362,Hypoparathyroidism,outcome
+203,207,435371,Hypothermia,outcome
+203,207,138690,Infestation by Pediculus,outcome
+203,207,4152376,Intentional self poisoning,outcome
+203,207,192953,Intestinal adhesions with obstruction,outcome
+203,207,196347,Intestinal parasitism,outcome
+203,207,137977,Jaundice,outcome
+203,207,317510,Leukemia,outcome
+203,207,765053,Lump in right breast,outcome
+203,207,378165,Nystagmus,outcome
+203,207,434085,Obstruction of duodenum,outcome
+203,207,4147016,Open wound of buttock,outcome
+203,207,4129404,Open wound of upper arm,outcome
+203,207,438120,Opioid dependence,outcome
+203,207,75924,Osteodystrophy,outcome
+203,207,432594,Osteomalacia,outcome
+203,207,30365,Panhypopituitarism,outcome
+203,207,4108371,Peripheral gangrene,outcome
+203,207,440367,Plasmacytosis,outcome
+203,207,439233,Poisoning by antidiabetic agent,outcome
+203,207,442149,Poisoning by bee sting,outcome
+203,207,4314086,Poisoning due to sting of ant,outcome
+203,207,4147660,Postural kyphosis,outcome
+203,207,434319,Premature ejaculation,outcome
+203,207,199754,Primary malignant neoplasm of pancreas,outcome
+203,207,4311499,Primary malignant neoplasm of respiratory tract,outcome
+203,207,436635,Primary malignant neoplasm of sigmoid colon,outcome
+203,207,196044,Primary malignant neoplasm of stomach,outcome
+203,207,433716,Primary malignant neoplasm of testis,outcome
+203,207,133424,Primary malignant neoplasm of thyroid gland,outcome
+203,207,194997,Prostatitis,outcome
+203,207,80286,Prosthetic joint loosening,outcome
+203,207,443274,Psychostimulant dependence,outcome
+203,207,314962,Raynaud?s disease,outcome
+203,207,37018294,Residual osteitis,outcome
+203,207,4288241,Salmonella enterica subspecies arizonae infection,outcome
+203,207,45757269,Sclerosing mesenteritis,outcome
+203,207,74722,Secondary localized osteoarthrosis of pelvic region,outcome
+203,207,200348,Secondary malignant neoplasm of large intestine,outcome
+203,207,43020446,Sedative withdrawal,outcome
+203,207,74194,Sprain of spinal ligament,outcome
+203,207,4194207,Tailor?s bunion,outcome
+203,207,193521,Tropical sprue,outcome
+203,207,40482801,Type II diabetes mellitus uncontrolled,outcome
+203,207,74719,Ulcer of foot,outcome
+203,207,196625,Viral hepatitis A without hepatic coma,outcome
+203,207,197494,Viral hepatitis C,outcome
+203,207,4284533,Vitamin D-dependent rickets,outcome
+204,206,438945,Accidental poisoning by benzodiazepine-based tranquilizer,outcome
+204,206,434455,Acquired claw toes,outcome
+204,206,316211,Acquired spondylolisthesis,outcome
+204,206,201612,Alcoholic liver damage,outcome
+204,206,438730,Alkalosis,outcome
+204,206,441258,Anemia in neoplastic disease,outcome
+204,206,432513,Animal bite wound,outcome
+204,206,4171556,Ankle ulcer,outcome
+204,206,4098292,Antiphospholipid syndrome,outcome
+204,206,77650,Aseptic necrosis of bone,outcome
+204,206,4239873,Benign neoplasm of ciliary body,outcome
+204,206,23731,Benign neoplasm of larynx,outcome
+204,206,199764,Benign neoplasm of ovary,outcome
+204,206,195500,Benign neoplasm of uterus,outcome
+204,206,4145627,Biliary calculus,outcome
+204,206,4108471,Burn of digit of hand,outcome
+204,206,75121,Burn of lower leg,outcome
+204,206,4284982,Calculus of bile duct without obstruction,outcome
+204,206,434327,Cannabis abuse,outcome
+204,206,78497,Cellulitis and abscess of toe,outcome
+204,206,4001454,Cervical spine ankylosis,outcome
+204,206,4068241,Chronic instability of knee,outcome
+204,206,195596,Chronic pancreatitis,outcome
+204,206,4206338,Chronic salpingitis,outcome
+204,206,4058397,Claustrophobia,outcome
+204,206,74816,Contusion of toe,outcome
+204,206,73302,Curvature of spine,outcome
+204,206,4151134,Cyst of pancreas,outcome
+204,206,77638,Displacement of intervertebral disc without myelopathy,outcome
+204,206,195864,Diverticulum of bladder,outcome
+204,206,201346,Edema of penis,outcome
+204,206,200461,Endometriosis of uterus,outcome
+204,206,377877,Esotropia,outcome
+204,206,193530,Follicular cyst of ovary,outcome
+204,206,4094822,Foreign body in respiratory tract,outcome
+204,206,443421,Gallbladder and bile duct calculi,outcome
+204,206,135215,Hashimoto thyroiditis,outcome
+204,206,442190,Hemorrhage of colon,outcome
+204,206,43020475,High risk heterosexual behavior,outcome
+204,206,194149,Hirschsprung?s disease,outcome
+204,206,443204,Human ehrlichiosis,outcome
+204,206,4226238,Hyperosmolar coma due to diabetes mellitus,outcome
+204,206,4032787,Hyperosmolarity,outcome
+204,206,197032,Hyperplasia of prostate,outcome
+204,206,140362,Hypoparathyroidism,outcome
+204,206,435371,Hypothermia,outcome
+204,206,138690,Infestation by Pediculus,outcome
+204,206,4152376,Intentional self poisoning,outcome
+204,206,192953,Intestinal adhesions with obstruction,outcome
+204,206,196347,Intestinal parasitism,outcome
+204,206,137977,Jaundice,outcome
+204,206,317510,Leukemia,outcome
+204,206,765053,Lump in right breast,outcome
+204,206,378165,Nystagmus,outcome
+204,206,434085,Obstruction of duodenum,outcome
+204,206,4147016,Open wound of buttock,outcome
+204,206,4129404,Open wound of upper arm,outcome
+204,206,438120,Opioid dependence,outcome
+204,206,75924,Osteodystrophy,outcome
+204,206,432594,Osteomalacia,outcome
+204,206,30365,Panhypopituitarism,outcome
+204,206,4108371,Peripheral gangrene,outcome
+204,206,440367,Plasmacytosis,outcome
+204,206,439233,Poisoning by antidiabetic agent,outcome
+204,206,442149,Poisoning by bee sting,outcome
+204,206,4314086,Poisoning due to sting of ant,outcome
+204,206,4147660,Postural kyphosis,outcome
+204,206,434319,Premature ejaculation,outcome
+204,206,199754,Primary malignant neoplasm of pancreas,outcome
+204,206,4311499,Primary malignant neoplasm of respiratory tract,outcome
+204,206,436635,Primary malignant neoplasm of sigmoid colon,outcome
+204,206,196044,Primary malignant neoplasm of stomach,outcome
+204,206,433716,Primary malignant neoplasm of testis,outcome
+204,206,133424,Primary malignant neoplasm of thyroid gland,outcome
+204,206,194997,Prostatitis,outcome
+204,206,80286,Prosthetic joint loosening,outcome
+204,206,443274,Psychostimulant dependence,outcome
+204,206,314962,Raynaud?s disease,outcome
+204,206,37018294,Residual osteitis,outcome
+204,206,4288241,Salmonella enterica subspecies arizonae infection,outcome
+204,206,45757269,Sclerosing mesenteritis,outcome
+204,206,74722,Secondary localized osteoarthrosis of pelvic region,outcome
+204,206,200348,Secondary malignant neoplasm of large intestine,outcome
+204,206,43020446,Sedative withdrawal,outcome
+204,206,74194,Sprain of spinal ligament,outcome
+204,206,4194207,Tailor?s bunion,outcome
+204,206,193521,Tropical sprue,outcome
+204,206,40482801,Type II diabetes mellitus uncontrolled,outcome
+204,206,74719,Ulcer of foot,outcome
+204,206,196625,Viral hepatitis A without hepatic coma,outcome
+204,206,197494,Viral hepatitis C,outcome
+204,206,4284533,Vitamin D-dependent rickets,outcome
+205,207,438945,Accidental poisoning by benzodiazepine-based tranquilizer,outcome
+205,207,434455,Acquired claw toes,outcome
+205,207,316211,Acquired spondylolisthesis,outcome
+205,207,201612,Alcoholic liver damage,outcome
+205,207,438730,Alkalosis,outcome
+205,207,441258,Anemia in neoplastic disease,outcome
+205,207,432513,Animal bite wound,outcome
+205,207,4171556,Ankle ulcer,outcome
+205,207,4098292,Antiphospholipid syndrome,outcome
+205,207,77650,Aseptic necrosis of bone,outcome
+205,207,4239873,Benign neoplasm of ciliary body,outcome
+205,207,23731,Benign neoplasm of larynx,outcome
+205,207,199764,Benign neoplasm of ovary,outcome
+205,207,195500,Benign neoplasm of uterus,outcome
+205,207,4145627,Biliary calculus,outcome
+205,207,4108471,Burn of digit of hand,outcome
+205,207,75121,Burn of lower leg,outcome
+205,207,4284982,Calculus of bile duct without obstruction,outcome
+205,207,434327,Cannabis abuse,outcome
+205,207,78497,Cellulitis and abscess of toe,outcome
+205,207,4001454,Cervical spine ankylosis,outcome
+205,207,4068241,Chronic instability of knee,outcome
+205,207,195596,Chronic pancreatitis,outcome
+205,207,4206338,Chronic salpingitis,outcome
+205,207,4058397,Claustrophobia,outcome
+205,207,74816,Contusion of toe,outcome
+205,207,73302,Curvature of spine,outcome
+205,207,4151134,Cyst of pancreas,outcome
+205,207,77638,Displacement of intervertebral disc without myelopathy,outcome
+205,207,195864,Diverticulum of bladder,outcome
+205,207,201346,Edema of penis,outcome
+205,207,200461,Endometriosis of uterus,outcome
+205,207,377877,Esotropia,outcome
+205,207,193530,Follicular cyst of ovary,outcome
+205,207,4094822,Foreign body in respiratory tract,outcome
+205,207,443421,Gallbladder and bile duct calculi,outcome
+205,207,135215,Hashimoto thyroiditis,outcome
+205,207,442190,Hemorrhage of colon,outcome
+205,207,43020475,High risk heterosexual behavior,outcome
+205,207,194149,Hirschsprung?s disease,outcome
+205,207,443204,Human ehrlichiosis,outcome
+205,207,4226238,Hyperosmolar coma due to diabetes mellitus,outcome
+205,207,4032787,Hyperosmolarity,outcome
+205,207,197032,Hyperplasia of prostate,outcome
+205,207,140362,Hypoparathyroidism,outcome
+205,207,435371,Hypothermia,outcome
+205,207,138690,Infestation by Pediculus,outcome
+205,207,4152376,Intentional self poisoning,outcome
+205,207,192953,Intestinal adhesions with obstruction,outcome
+205,207,196347,Intestinal parasitism,outcome
+205,207,137977,Jaundice,outcome
+205,207,317510,Leukemia,outcome
+205,207,765053,Lump in right breast,outcome
+205,207,378165,Nystagmus,outcome
+205,207,434085,Obstruction of duodenum,outcome
+205,207,4147016,Open wound of buttock,outcome
+205,207,4129404,Open wound of upper arm,outcome
+205,207,438120,Opioid dependence,outcome
+205,207,75924,Osteodystrophy,outcome
+205,207,432594,Osteomalacia,outcome
+205,207,30365,Panhypopituitarism,outcome
+205,207,4108371,Peripheral gangrene,outcome
+205,207,440367,Plasmacytosis,outcome
+205,207,439233,Poisoning by antidiabetic agent,outcome
+205,207,442149,Poisoning by bee sting,outcome
+205,207,4314086,Poisoning due to sting of ant,outcome
+205,207,4147660,Postural kyphosis,outcome
+205,207,434319,Premature ejaculation,outcome
+205,207,199754,Primary malignant neoplasm of pancreas,outcome
+205,207,4311499,Primary malignant neoplasm of respiratory tract,outcome
+205,207,436635,Primary malignant neoplasm of sigmoid colon,outcome
+205,207,196044,Primary malignant neoplasm of stomach,outcome
+205,207,433716,Primary malignant neoplasm of testis,outcome
+205,207,133424,Primary malignant neoplasm of thyroid gland,outcome
+205,207,194997,Prostatitis,outcome
+205,207,80286,Prosthetic joint loosening,outcome
+205,207,443274,Psychostimulant dependence,outcome
+205,207,314962,Raynaud?s disease,outcome
+205,207,37018294,Residual osteitis,outcome
+205,207,4288241,Salmonella enterica subspecies arizonae infection,outcome
+205,207,45757269,Sclerosing mesenteritis,outcome
+205,207,74722,Secondary localized osteoarthrosis of pelvic region,outcome
+205,207,200348,Secondary malignant neoplasm of large intestine,outcome
+205,207,43020446,Sedative withdrawal,outcome
+205,207,74194,Sprain of spinal ligament,outcome
+205,207,4194207,Tailor?s bunion,outcome
+205,207,193521,Tropical sprue,outcome
+205,207,40482801,Type II diabetes mellitus uncontrolled,outcome
+205,207,74719,Ulcer of foot,outcome
+205,207,196625,Viral hepatitis A without hepatic coma,outcome
+205,207,197494,Viral hepatitis C,outcome
+205,207,4284533,Vitamin D-dependent rickets,outcome

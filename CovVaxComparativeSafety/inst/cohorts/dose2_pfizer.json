@@ -270,6 +270,62 @@
               "STANDARD_CONCEPT_CAPTION": "Non-Standard",
               "VOCABULARY_ID": "US_EMR_Drug"
             }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Branded Drug Box",
+              "CONCEPT_CODE": "16979850",
+              "CONCEPT_ID": 2016979850,
+              "CONCEPT_NAME": "COVID-19 VACCIN PFIZER INJVLST 0,3ML",
+              "DOMAIN_ID": "Drug",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "N",
+              "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+              "VOCABULARY_ID": "ZIndex"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Clinical Drug",
+              "CONCEPT_CODE": "184284",
+              "CONCEPT_ID": 2062184284,
+              "CONCEPT_NAME": "COVID-19 VACCIN PFIZER INJVLST",
+              "DOMAIN_ID": "Drug",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "N",
+              "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+              "VOCABULARY_ID": "ZIndex"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+              "CONCEPT_CODE": "206784",
+              "CONCEPT_ID": 2061206784,
+              "CONCEPT_NAME": "COVID-19 VACCIN PFIZER INJVLST 0,3ML",
+              "DOMAIN_ID": "Drug",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "N",
+              "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+              "VOCABULARY_ID": "ZIndex"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Branded Drug",
+              "CONCEPT_CODE": "2924528",
+              "CONCEPT_ID": 2052924528,
+              "CONCEPT_NAME": "COVID-19 VACCIN PFIZER INJVLST 0,3ML",
+              "DOMAIN_ID": "Drug",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "N",
+              "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+              "VOCABULARY_ID": "ZIndex"
+            }
           }
         ]
       }
@@ -1411,6 +1467,160 @@
               "STANDARD_CONCEPT": "N",
               "STANDARD_CONCEPT_CAPTION": "Non-Standard",
               "VOCABULARY_ID": "US_EMR_Drug"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+              "CONCEPT_CODE": "206806",
+              "CONCEPT_ID": 2061206806,
+              "CONCEPT_NAME": "COVID-19 VACCIN ASTRAZENECA INJVLST",
+              "DOMAIN_ID": "Drug",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "N",
+              "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+              "VOCABULARY_ID": "ZIndex"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Branded Drug Box",
+              "CONCEPT_CODE": "16980743",
+              "CONCEPT_ID": 2016980743,
+              "CONCEPT_NAME": "COVID-19 VACCIN ASTRAZENECA INJVLST",
+              "DOMAIN_ID": "Drug",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "N",
+              "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+              "VOCABULARY_ID": "ZIndex"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Clinical Drug",
+              "CONCEPT_CODE": "184306",
+              "CONCEPT_ID": 2062184306,
+              "CONCEPT_NAME": "COVID-19 VACCIN ASTRAZENECA INJVLST",
+              "DOMAIN_ID": "Drug",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "N",
+              "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+              "VOCABULARY_ID": "ZIndex"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Branded Drug",
+              "CONCEPT_CODE": "2924536",
+              "CONCEPT_ID": 2052924536,
+              "CONCEPT_NAME": "COVID-19 VACCIN MODERNA INJVLST 0,5ML",
+              "DOMAIN_ID": "Drug",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "N",
+              "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+              "VOCABULARY_ID": "ZIndex"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Branded Drug Box",
+              "CONCEPT_CODE": "16993837",
+              "CONCEPT_ID": 2016993837,
+              "CONCEPT_NAME": "COVID-19 VACCIN JANSSEN INJVLST 0,5ML",
+              "DOMAIN_ID": "Drug",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "N",
+              "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+              "VOCABULARY_ID": "ZIndex"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Branded Drug",
+              "CONCEPT_CODE": "2934701",
+              "CONCEPT_ID": 2052934701,
+              "CONCEPT_NAME": "COVID-19 VACCIN JANSSEN INJVLST 0,5ML",
+              "DOMAIN_ID": "Drug",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "N",
+              "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+              "VOCABULARY_ID": "ZIndex"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Branded Drug",
+              "CONCEPT_CODE": "2925508",
+              "CONCEPT_ID": 2052925508,
+              "CONCEPT_NAME": "COVID-19 VACCIN ASTRAZENECA INJVLST",
+              "DOMAIN_ID": "Drug",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "N",
+              "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+              "VOCABULARY_ID": "ZIndex"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Branded Drug Box",
+              "CONCEPT_CODE": "16979966",
+              "CONCEPT_ID": 2016979966,
+              "CONCEPT_NAME": "COVID-19 VACCIN MODERNA INJVLST 0,5ML",
+              "DOMAIN_ID": "Drug",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "N",
+              "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+              "VOCABULARY_ID": "ZIndex"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Clinical Drug",
+              "CONCEPT_CODE": "184276",
+              "CONCEPT_ID": 2062184276,
+              "CONCEPT_NAME": "COVID-19 VACCIN MODERNA INJVLST",
+              "DOMAIN_ID": "Drug",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "N",
+              "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+              "VOCABULARY_ID": "ZIndex"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+              "CONCEPT_CODE": "207748",
+              "CONCEPT_ID": 2061207748,
+              "CONCEPT_NAME": "COVID-19 VACCIN JANSSEN INJVLST 0,5ML",
+              "DOMAIN_ID": "Drug",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "N",
+              "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+              "VOCABULARY_ID": "ZIndex"
+            }
+          },
+          {
+            "concept": {
+              "CONCEPT_CLASS_ID": "Quant Clinical Drug",
+              "CONCEPT_CODE": "206776",
+              "CONCEPT_ID": 2061206776,
+              "CONCEPT_NAME": "COVID-19 VACCIN MODERNA INJVLST 0,5ML",
+              "DOMAIN_ID": "Drug",
+              "INVALID_REASON": "V",
+              "INVALID_REASON_CAPTION": "Valid",
+              "STANDARD_CONCEPT": "N",
+              "STANDARD_CONCEPT_CAPTION": "Non-Standard",
+              "VOCABULARY_ID": "ZIndex"
             }
           }
         ]
