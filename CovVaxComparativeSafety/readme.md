@@ -88,8 +88,8 @@ How to run
 5. To view the results, use the Shiny app:
 
 	```r
-  prepareForEvidenceExplorer(resultsZipFile = resultsZipFile, dataFolder = dataFolder)
-  launchEvidenceExplorer(dataFolder = dataFolder, blind = TRUE, launch.browser = FALSE)
-  ```
+	prepareForEvidenceExplorer(resultsZipFile = resultsZipFile, dataFolder = dataFolder)
+	launchEvidenceExplorer(dataFolder = dataFolder, blind = TRUE, launch.browser = FALSE)
+	```
   
   Note that you can save plots from within the Shiny app. It is possible to view results from more than one database by applying `prepareForEvidenceExplorer` to the Results file from each database, and using the same data folder. Set `blind = FALSE` if you wish to be unblinded to the final results.
