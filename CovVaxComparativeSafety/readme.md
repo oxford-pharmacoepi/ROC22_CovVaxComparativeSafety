@@ -15,15 +15,19 @@ How to run
 ==========
 1. Follow [these instructions](https://ohdsi.github.io/Hades/rSetup.html) for seting up your R environment, including RTools and Java. 
 
-2. Open your study package in RStudio. Use the following code to install all the dependencies:
+2. Open the study package folder `CovVaxComparativeSafety` in RStudio. Open the `CovVaxComparativeSafety.Rproj`
+
+3. Use the following code to install all the dependencies (install the `renv` package first if you haven't done so, then restart R after the installation):
 
 	```r
+	# install.packages("renv")
+	# restart R after installation
 	renv::restore()
 	```
 
-3. In RStudio, select 'Build' then 'Install and Restart' to build the package.
+4. In RStudio, select 'Build' then 'Install and Restart' to build the package.
 
-3. Once installed, you can execute the study by modifying and using the code below. For your convenience, this code is also provided under `extras/CodeToRun.R`:
+5. Once installed, you can execute the study by modifying and using the code below. For your convenience, this code is also provided under `extras/CodeToRun.R`:
 
 	```r
 	library(CovVaxComparativeSafety)
@@ -78,14 +82,14 @@ How to run
             maxCores = maxCores)
 	```
 
-4. Create the zip file ```export/Results_<DatabaseId>.zip``` in the output folder to share with study coordinator:
+6. Create the zip file ```export/Results_<DatabaseId>.zip``` in the output folder to share with study coordinator:
 
 	```r
 	resultsZipFile <- file.path(outputFolder, "export", paste0("Results_", databaseId, ".zip"))
 	dataFolder <- file.path(outputFolder, "shinyData")
 	```
 	
-5. To view the results, use the Shiny app:
+7. To view the results, use the Shiny app:
 
 	```r
 	prepareForEvidenceExplorer(resultsZipFile = resultsZipFile, dataFolder = dataFolder)
