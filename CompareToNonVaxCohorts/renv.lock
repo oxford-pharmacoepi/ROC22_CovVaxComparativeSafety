@@ -11,7 +11,7 @@
   "Packages": {
     "Andromeda": {
       "Package": "Andromeda",
-      "Version": "0.4.1",
+      "Version": "0.5.0",
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "8dcc8e84af90526e01dcfd9c18fbb59c"
@@ -25,19 +25,20 @@
     },
     "CohortMethod": {
       "Package": "CohortMethod",
-      "Version": "4.1.0",
+      "Version": "4.2.1",
       "Source": "GitHub",
+      "Remotes": "Xintong-Li-ZnCu/FeatureExtraction",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "CohortMethod",
-      "RemoteUsername": "ohdsi",
-      "RemoteRef": "v4.1.0",
-      "Remotes": "Xintong-Li-ZnCu/FeatureExtraction",
-      "Hash": "519e11841eb8d8d4a70563e43bfe4a5f"
+      "RemoteUsername": "Xintong-Li-ZnCu",
+      "RemoteRef": "HEAD",
+      "RemoteSha": "c82c6d572c3233a9dcb3219e67ed8abb54b94ebf",
+      "Hash": "6c41890db814eb87835e2a9dfa62b7b3"
     },
     "Cyclops": {
       "Package": "Cyclops",
-      "Version": "3.1.1",
+      "Version": "3.1.2",
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "81bd5ccf40ac7821910b185d360e8b2e"
@@ -464,6 +465,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "079cb1f03ff972b30401ed05623cbe92"
+    },
+    "reshape2": {
+      "Package": "reshape2",
+      "Version": "1.4.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "bb5996d0bd962d214a11140d77589917"
     },
     "rlang": {
       "Package": "rlang",
