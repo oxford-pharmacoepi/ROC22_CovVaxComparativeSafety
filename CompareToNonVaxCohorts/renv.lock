@@ -14,7 +14,7 @@
       "Version": "0.5.0",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "8dcc8e84af90526e01dcfd9c18fbb59c"
+      "Hash": "770d773d049662d2d1d13780f6f5e11c"
     },
     "BH": {
       "Package": "BH",
@@ -27,21 +27,21 @@
       "Package": "CohortMethod",
       "Version": "4.2.1",
       "Source": "GitHub",
-      "Remotes": "Xintong-Li-ZnCu/FeatureExtraction",
+      "Remotes": "ohdsi/FeatureExtraction",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "CohortMethod",
-      "RemoteUsername": "Xintong-Li-ZnCu",
+      "RemoteUsername": "OHDSI",
       "RemoteRef": "HEAD",
-      "RemoteSha": "c82c6d572c3233a9dcb3219e67ed8abb54b94ebf",
-      "Hash": "6c41890db814eb87835e2a9dfa62b7b3"
+      "RemoteSha": "79b86e4435f66825cecfc8e518d0d1d034d3d4ef",
+      "Hash": "de44bcf6e359a138dca1c07a4039c363"
     },
     "Cyclops": {
       "Package": "Cyclops",
       "Version": "3.1.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "81bd5ccf40ac7821910b185d360e8b2e"
+      "Hash": "2bc88b32343150d9c4a4b943f007d034"
     },
     "DBI": {
       "Package": "DBI",
@@ -105,7 +105,8 @@
       "RemoteUsername": "ohdsi",
       "RemoteRef": "v2.1.0",
       "Remotes": "Xintong-Li-ZnCu/FeatureExtraction",
-      "Hash": "f85b068a4a193feb7701efaffffeccba"
+      "Remotes.1": "ohdsi/FeatureExtraction",
+      "Hash": "67d4d4c03086d7d15352238b43370856"
     },
     "OhdsiSharing": {
       "Package": "OhdsiSharing",
@@ -459,6 +460,13 @@
       "Repository": "CRAN",
       "Hash": "2639976851f71f330264a9c9c3d43a61"
     },
+    "remotes": {
+      "Package": "remotes",
+      "Version": "2.4.1",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "feaca31e417db79fd1832e25b51a7717"
+    },
     "renv": {
       "Package": "renv",
       "Version": "0.13.2",
@@ -521,6 +529,13 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "349b40a9f144516d537c875e786ec8b8"
+    },
+    "tidyr": {
+      "Package": "tidyr",
+      "Version": "1.1.4",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "c8fbdbd9fcac223d6c6fe8e406f368e1"
     },
     "tidyselect": {
       "Package": "tidyselect",
