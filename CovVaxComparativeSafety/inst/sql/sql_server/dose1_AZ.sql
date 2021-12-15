@@ -393,7 +393,7 @@ JOIN #Codesets cs on (de.drug_concept_id = cs.concept_id and cs.codeset_id = 3)
 
 -- End Drug Exposure Criteria
 
-) C on C.person_id = I.person_id and C.start_date > I.start_date and C.START_DATE <= I.op_end_date
+) C on C.person_id = I.person_id and C.start_date > DATEADD(day,5,I.start_date) and C.START_DATE <= I.op_end_date
 GROUP BY i.event_id, i.person_id
 
 UNION ALL
@@ -415,7 +415,7 @@ JOIN #Codesets cns on (de.drug_source_concept_id = cns.concept_id and cns.codese
 
 -- End Drug Exposure Criteria
 
-) C on C.person_id = I.person_id and C.start_date > I.start_date and C.START_DATE <= I.op_end_date
+) C on C.person_id = I.person_id and C.start_date > DATEADD(day,5,I.start_date) and C.START_DATE <= I.op_end_date
 GROUP BY i.event_id, i.person_id
 
 UNION ALL
@@ -436,7 +436,7 @@ JOIN #Codesets cs on (o.observation_concept_id = cs.concept_id and cs.codeset_id
 
 -- End Observation Criteria
 
-) C on C.person_id = I.person_id and C.start_date > I.start_date and C.START_DATE <= I.op_end_date
+) C on C.person_id = I.person_id and C.start_date > DATEADD(day,5,I.start_date) and C.START_DATE <= I.op_end_date
 GROUP BY i.event_id, i.person_id
 
 UNION ALL
@@ -457,7 +457,7 @@ JOIN #Codesets cns on (o.observation_source_concept_id = cns.concept_id and cns.
 
 -- End Observation Criteria
 
-) C on C.person_id = I.person_id and C.start_date > I.start_date and C.START_DATE <= I.op_end_date
+) C on C.person_id = I.person_id and C.start_date > DATEADD(day,5,I.start_date) and C.START_DATE <= I.op_end_date
 GROUP BY i.event_id, i.person_id
 
 

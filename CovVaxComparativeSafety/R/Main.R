@@ -85,6 +85,7 @@ execute <- function(connectionDetails,
                     databaseName = "Unknown",
                     databaseDescription = "Unknown",
                     createCohorts = TRUE,
+                    createCovHis = TRUE,
                     synthesizePositiveControls = TRUE,
                     runAnalyses = TRUE,
                     packageResults = TRUE,
@@ -117,6 +118,17 @@ execute <- function(connectionDetails,
                   outputFolder = outputFolder)
   }
   
+  if(createCovHis){
+    ParallelLogger::logInfo("Create the covid-19 history covariate")
+    createCovHis(connectionDetails = connectionDetails,
+                 cdmDatabaseSchema = cdmDatabaseSchema,
+                 cohortDatabaseSchema = cohortDatabaseSchema,
+                 study_cohort_table = cohortTable,
+                 #  tempEmulationSchema = tempEmulationSchema,
+                 outputFolder = outputFolder)
+  }
+  
+  
   # Set doPositiveControlSynthesis to FALSE if you don't want to use synthetic positive controls:
   # Start doPositiveControlSynthesis
   doPositiveControlSynthesis <- TRUE
@@ -133,6 +145,7 @@ execute <- function(connectionDetails,
                                  maxCores = maxCores)
     }
   }
+  
   
   if (runAnalyses) {
     ParallelLogger::logInfo("Running CohortMethod analyses")

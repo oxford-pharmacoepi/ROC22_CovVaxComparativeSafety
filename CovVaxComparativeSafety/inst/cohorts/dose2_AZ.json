@@ -995,52 +995,10 @@
           },
           {
             "concept": {
-              "CONCEPT_CLASS_ID": "Clinical Drug Form",
-              "CONCEPT_CODE": "2479834",
-              "CONCEPT_ID": 739905,
-              "CONCEPT_NAME": "SARS-COV-2 (COVID-19) vaccine, vector non-replicating Injectable Suspension",
-              "DOMAIN_ID": "Drug",
-              "INVALID_REASON": "V",
-              "INVALID_REASON_CAPTION": "Valid",
-              "STANDARD_CONCEPT": "S",
-              "STANDARD_CONCEPT_CAPTION": "Standard",
-              "VOCABULARY_ID": "RxNorm"
-            }
-          },
-          {
-            "concept": {
-              "CONCEPT_CLASS_ID": "Clinical Dose Group",
-              "CONCEPT_CODE": "2479833",
-              "CONCEPT_ID": 739904,
-              "CONCEPT_NAME": "SARS-COV-2 (COVID-19) vaccine, vector non-replicating Injectable Product",
-              "DOMAIN_ID": "Drug",
-              "INVALID_REASON": "V",
-              "INVALID_REASON_CAPTION": "Valid",
-              "STANDARD_CONCEPT": "C",
-              "STANDARD_CONCEPT_CAPTION": "Classification",
-              "VOCABULARY_ID": "RxNorm"
-            }
-          },
-          {
-            "concept": {
               "CONCEPT_CLASS_ID": "Clinical Drug Comp",
               "CONCEPT_CODE": "2479832",
               "CONCEPT_ID": 739903,
               "CONCEPT_NAME": "SARS-COV-2 (COVID-19) vaccine, vector - Ad26 100000000000 UNT/ML",
-              "DOMAIN_ID": "Drug",
-              "INVALID_REASON": "V",
-              "INVALID_REASON_CAPTION": "Valid",
-              "STANDARD_CONCEPT": "S",
-              "STANDARD_CONCEPT_CAPTION": "Standard",
-              "VOCABULARY_ID": "RxNorm"
-            }
-          },
-          {
-            "concept": {
-              "CONCEPT_CLASS_ID": "Ingredient",
-              "CONCEPT_CODE": "2479831",
-              "CONCEPT_ID": 739902,
-              "CONCEPT_NAME": "SARS-COV-2 (COVID-19) vaccine, vector non-replicating",
               "DOMAIN_ID": "Drug",
               "INVALID_REASON": "V",
               "INVALID_REASON_CAPTION": "Valid",

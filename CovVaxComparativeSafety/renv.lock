@@ -34,8 +34,7 @@
       "RemoteRef": "v4.1.0",
       "Remotes": "Xintong-Li-ZnCu/FeatureExtraction",
       "Remotes.1": "ohdsi/FeatureExtraction",
-      "Remotes.2": "ohdsi/FeatureExtraction",
-      "Hash": "7137037a81d1ef6024f8317cc81e5ee1"
+      "Hash": "81b8d46a8a07308ad7d04e6f46c7bda4"
     },
     "Cyclops": {
       "Package": "Cyclops",
@@ -60,15 +59,15 @@
     },
     "DatabaseConnector": {
       "Package": "DatabaseConnector",
-      "Version": "4.0.2",
+      "Version": "5.0.0",
       "Source": "GitHub",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
-      "RemoteUsername": "ohdsi",
       "RemoteRepo": "DatabaseConnector",
-      "RemoteRef": "master",
-      "RemoteSha": "8a34f01d92a11832cb2bdb07e44385f33e428802",
-      "Hash": "ca4afa16490ca819022306248a1890e2"
+      "RemoteUsername": "ohdsi",
+      "RemoteRef": "develop",
+      "RemoteSha": "1f96f7701a9a250c7ea524aacc20400c8179c617",
+      "Hash": "1832811d42da5d5abb2dd178a51eea13"
     },
     "EmpiricalCalibration": {
       "Package": "EmpiricalCalibration",
@@ -114,8 +113,7 @@
       "RemoteRef": "v2.1.0",
       "Remotes": "Xintong-Li-ZnCu/FeatureExtraction",
       "Remotes.1": "ohdsi/FeatureExtraction",
-      "Remotes.2": "ohdsi/FeatureExtraction",
-      "Hash": "621a407b18b925cbc2ee0c8a06646cdb"
+      "Hash": "67d4d4c03086d7d15352238b43370856"
     },
     "OhdsiSharing": {
       "Package": "OhdsiSharing",
@@ -595,12 +593,19 @@
       "Repository": "CRAN",
       "Hash": "2639976851f71f330264a9c9c3d43a61"
     },
-    "renv": {
-      "Package": "renv",
-      "Version": "0.13.2",
+    "remotes": {
+      "Package": "remotes",
+      "Version": "2.4.2",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "079cb1f03ff972b30401ed05623cbe92"
+      "Hash": "227045be9aee47e6dda9bb38ac870d67"
+    },
+    "renv": {
+      "Package": "renv",
+      "Version": "0.14.0",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "30e5eba91b67f7f4d75d31de14bbfbdc"
     },
     "rlang": {
       "Package": "rlang",

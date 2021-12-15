@@ -33,16 +33,45 @@
                                            tempEmulationSchema = tempEmulationSchema,
                                            cohort_database_schema = cohortDatabaseSchema,
                                            cohort_table = cohortTable)
-  #sql <- sub("BEGIN: Inclusion Impact Analysis - event.*END: Inclusion Impact Analysis - person", "", sql) ## added by XL: to delete the part for cohort diagnostics  
-  
+  #sql <- sub("BEGIN: Inclusion Impact Analysis - event.*END: Inclusion Impact Analysis - person", "", sql) ## added by XL: to delete the part for cohort diagnostics
+
   DatabaseConnector::executeSql(connection, sql, progressBar = FALSE, reportOverallTime = FALSE)
-  
+
   
   
   # Instantiate cohorts:
   pathToCsv <- system.file("settings", "CohortsToCreate.csv", package = "CovVaxComparativeSafety")
   cohortsToCreate <- read.csv(pathToCsv)
   for (i in 1:nrow(cohortsToCreate)) {
+    ## XL start ##
+    # sql <- "SELECT cohort_definition_id, COUNT(*) AS count FROM @cohort_database_schema.@cohort_table 
+    # WHERE cohort_definition_id =@target_cohort_id  GROUP BY cohort_definition_id;"
+    # sql <- SqlRender::render(sql,
+    #                          cohort_database_schema = cohortDatabaseSchema,
+    #                          cohort_table = cohortTable,
+    #                          target_cohort_id = cohortsToCreate$cohortId[i])
+    # sql <- SqlRender::translate(sql, targetDialect = attr(connection, "dbms"))
+    # co.count <- DatabaseConnector::querySql(connection, sql)
+    # a <- ifelse(nrow(co.count) > 0, co.count$COUNT,NA)
+    # # a <- co.count$COUNT 
+    # if (is.na(a)==FALSE & a > 0 ){
+    #   writeLines(paste("Skip creating cohort:", cohortsToCreate$name[i], "  cohorts already created.")) 
+    # } else{
+    #   writeLines(paste("Creating cohort:", cohortsToCreate$name[i]))
+    #   sql <- SqlRender::loadRenderTranslateSql(sqlFilename = paste0(cohortsToCreate$name[i], ".sql"),
+    #                                            packageName = "CovVaxComparativeSafety",
+    #                                            dbms = attr(connection, "dbms"),
+    #                                            tempEmulationSchema = tempEmulationSchema,
+    #                                            cdm_database_schema = cdmDatabaseSchema,
+    #                                            vocabulary_database_schema = vocabularyDatabaseSchema,
+    #                                            target_database_schema = cohortDatabaseSchema,
+    #                                            target_cohort_table = cohortTable,
+    #                                            target_cohort_id = cohortsToCreate$cohortId[i])
+    #   DatabaseConnector::executeSql(connection, sql)
+    # }
+    # rm(a)
+    # rm(co.count)
+    ## XL end ##
     writeLines(paste("Creating cohort:", cohortsToCreate$name[i]))
     sql <- SqlRender::loadRenderTranslateSql(sqlFilename = paste0(cohortsToCreate$name[i], ".sql"),
                                              packageName = "CovVaxComparativeSafety",

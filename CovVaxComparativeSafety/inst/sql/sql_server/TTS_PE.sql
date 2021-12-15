@@ -31,7 +31,7 @@ SELECT 19 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
 ) I
 ) C;
 INSERT INTO #Codesets (codeset_id, concept_id)
-SELECT 20 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
+SELECT 16 as codeset_id, c.concept_id FROM (select distinct I.concept_id FROM
 ( 
   select concept_id from @vocabulary_database_schema.CONCEPT where concept_id in (4120091,45768439,45768888,4309039,762808,40480461,4108681,440417,37109911,37016922,43530605,254662,4253796,4121618,4119610,4119607,4236271,36713113,35615055)
 
@@ -58,7 +58,7 @@ FROM
 (
   SELECT co.* 
   FROM @cdm_database_schema.CONDITION_OCCURRENCE co
-  JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 20))
+  JOIN #Codesets codesets on ((co.condition_concept_id = codesets.concept_id and codesets.codeset_id = 16))
 ) C
 
 
