@@ -18,28 +18,28 @@ maxCores <- 4
 # The folder where the study intermediate and result files will be written:
 
 # The folder where the study intermediate and result files will be written:
-outputFolder <- "/home/xli/compSafety_v2_share/output"
+outputFolder <- "./CovVaxComparativeSafety/output"
 
 connectionDetails <- DatabaseConnector::createConnectionDetails(dbms = "postgresql",
-                                                                server = "163.1.64.2/cdm_aurum_202106",
-                                                                user = "xli",
-                                                                password = "Jswdwsx@1995",
-                                                                port = 5432 ,
-                                                                pathToDriver = "/home/xli")
+                                                                server = "....",
+                                                                user = !!"...",
+                                                                password = "...",
+                                                                port = 0000 ,
+                                                                pathToDriver = "...")
 # conn <-  DatabaseConnector::connect(connectionDetails)
 # disconnect(conn)
 
 # The name of the database schema where the CDM data can be found:
-cdmDatabaseSchema <- "public"
+cdmDatabaseSchema <- "..."
 
 # The name of the database schema and table where the study-specific cohorts will be instantiated:
-cohortDatabaseSchema <- "results"
+cohortDatabaseSchema <- "..."
 cohortTable <- "CovVaxCompare_cohorts"
 oracleTempSchema <- NULL
 # Some meta-information that will be used by the export function:
-databaseId <- "CPRD_Aurum_202106"
-databaseName <- "CPRD_Aurum_202106"
-databaseDescription <- "CPRD_Aurum release of 202106"
+databaseId <- "..."
+databaseName <- "..."
+databaseDescription <- "..."
 # For some database platforms (e.g. Oracle): define a schema that can be used to emulate temp tables:
 options(sqlRenderTempEmulationSchema = NULL)
 
@@ -53,8 +53,8 @@ CovVaxComparativeSafety::execute(connectionDetails = connectionDetails,
                                  databaseName = databaseName,
                                  databaseDescription = databaseDescription,
                                  verifyDependencies = TRUE,
-                                 createCohorts = FALSE,
-                                 createCovHis = FALSE,  #########################
+                                 createCohorts = TRUE,
+                                 createCovHis = TRUE,  #########################
                                  synthesizePositiveControls = FALSE,
                                  runAnalyses = TRUE,
                                  packageResults = TRUE,
