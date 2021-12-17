@@ -10,36 +10,34 @@ createCovHis <- function(connectionDetails,
                           outputFolder) {
   
 conn <- DatabaseConnector::connect(connectionDetails)
-
-sql<-SqlRender::readSql("./inst/sql/sql_server/CovidHistoryAttr.sql")
-sql<-SqlRender::translate(sql, targetDialect = "postgresql")
-DatabaseConnector::renderTranslateExecuteSql(conn=conn,
-                                             sql,
-                                             cdm_database_schema = cdmDatabaseSchema,
-                                             vocabulary_database_schema = cdmDatabaseSchema,
-                                             cohort_database_schema = cohortDatabaseSchema,
-                                             study_cohort_table = study_cohort_table,
-                                             VAX_definition_ids = VAX_definition_ids,
-                                             cohort_attribute_table = "covhis_cohort_attr",
-                                             attribute_definition_table = "covhis_attr_def"
-)
-
-
-# sql <- SqlRender::loadRenderTranslateSql(sqlFilename = "CovidHistoryAttr.sql",
-#                                          packageName = "CovVaxComparativeSafety",
-#                                          dbms = attr(connection, "dbms"),
-#                                        #  tempEmulationSchema = tempEmulationSchema,
-#                                        cdm_database_schema = cdmDatabaseSchema,
-#                                        vocabulary_database_schema = cdmDatabaseSchema,
-#                                        cohort_database_schema = cohortDatabaseSchema,
-#                                        study_cohort_table = study_cohort_table,
-#                                        VAX_definition_ids = VAX_definition_ids, 
-#                                        cohort_attribute_table = "covhis_cohort_attr",
-#                                        attribute_definition_table = "covhis_attr_def")
 # 
-# DatabaseConnector::executeSql(connection, sql, progressBar = FALSE, reportOverallTime = FALSE)
-# 
+# sql<-SqlRender::readSql("./inst/sql/sql_server/CovidHistoryAttr.sql")
+# sql<-SqlRender::translate(sql, targetDialect = "postgresql")
+# DatabaseConnector::renderTranslateExecuteSql(conn=conn,
+#                                              sql,
+#                                              cdm_database_schema = cdmDatabaseSchema,
+#                                              vocabulary_database_schema = cdmDatabaseSchema,
+#                                              cohort_database_schema = cohortDatabaseSchema,
+#                                              study_cohort_table = study_cohort_table,
+#                                              VAX_definition_ids = VAX_definition_ids,
+#                                              cohort_attribute_table = "covhis_cohort_attr",
+#                                              attribute_definition_table = "covhis_attr_def"
+# )
 
+
+sql <- SqlRender::loadRenderTranslateSql(sqlFilename = "CovidHistoryAttr.sql",
+                                         packageName = "CovVaxComparativeSafety",
+                                         dbms = attr(conn, "dbms"),
+                                         #  tempEmulationSchema = tempEmulationSchema,
+                                         cdm_database_schema = cdmDatabaseSchema,
+                                         vocabulary_database_schema = cdmDatabaseSchema,
+                                         cohort_database_schema = cohortDatabaseSchema,
+                                         study_cohort_table = study_cohort_table,
+                                         VAX_definition_ids = VAX_definition_ids,
+                                         cohort_attribute_table = "covhis_cohort_attr",
+                                         attribute_definition_table = "covhis_attr_def")
+
+DatabaseConnector::executeSql(conn, sql, progressBar = FALSE, reportOverallTime = FALSE)
 
 rm(sql)
 
