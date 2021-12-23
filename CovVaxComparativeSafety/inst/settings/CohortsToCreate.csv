@@ -29,7 +29,8 @@ atlasId,atlasName,cohortId,name
 406,TTS_PE,406,TTS_PE
 407,TTS_SVT,407,TTS_SVT
 408,TTS_VTE,408,TTS_VTE
-409,TTS_all stroke,409,TTS_all stroke
+409,TTS_all_stroke,409,TTS_all_stroke
+410,TTS_any,410,TTS_any
 501,death,501,death
 601,TTS_100ct_ATE,601,TTS_100ct_ATE
 602,TTS_100ct_CVST,602,TTS_100ct_CVST
@@ -39,7 +40,8 @@ atlasId,atlasName,cohortId,name
 606,TTS_100ct_PE,606,TTS_100ct_PE
 607,TTS_100ct_SVT,607,TTS_100ct_SVT
 608,TTS_100ct_VTE,608,TTS_100ct_VTE
-609,TTS_100ct_all stroke,609,TTS_100ct_all stroke
+609,TTS_100ct_all_stroke,609,TTS_100ct_all_stroke
+610,TTS_100ct_any,610,TTS_100ct_any
 701,TTS_5d_ATE,701,TTS_5d_ATE
 702,TTS_5d_CVST,702,TTS_5d_CVST
 703,TTS_5d_DVT,703,TTS_5d_DVT
@@ -48,4 +50,5 @@ atlasId,atlasName,cohortId,name
 706,TTS_5d_PE,706,TTS_5d_PE
 707,TTS_5d_SVT,707,TTS_5d_SVT
 708,TTS_5d_VTE,708,TTS_5d_VTE
-709,TTS_5d_all stroke,709,TTS_5d_all stroke
+709,TTS_5d_all_stroke,709,TTS_5d_all_stroke
+710,TTS_5d_any,710,TTS_5d_any
