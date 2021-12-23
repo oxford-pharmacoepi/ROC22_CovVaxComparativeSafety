@@ -43,20 +43,20 @@ exportResults <- function(outputFolder,
   
   exportAnalyses(outputFolder = outputFolder,
                  exportFolder = exportFolder)
-  
+
   exportExposures(outputFolder = outputFolder,
                   exportFolder = exportFolder)
-  
+
   exportOutcomes(outputFolder = outputFolder,
                  exportFolder = exportFolder)
-  
+
   exportMetadata(outputFolder = outputFolder,
                  exportFolder = exportFolder,
                  databaseId = databaseId,
                  databaseName = databaseName,
                  databaseDescription = databaseDescription,
                  minCellCount = minCellCount)
-  
+
   exportMainResults(outputFolder = outputFolder,
                     exportFolder = exportFolder,
                     databaseId = databaseId,
@@ -72,7 +72,7 @@ exportResults <- function(outputFolder,
   exportIncidenceRate(outputFolder = outputFolder,
                       exportFolder = exportFolder,
                       databaseId = databaseId)
-  
+
   exportAnalysisSummary(outputFolder = outputFolder,
                         exportFolder = exportFolder)
   
@@ -727,7 +727,7 @@ exportDiagnostics <- function(outputFolder,
                                     na.rm = TRUE)
     inferredComparatorAfterSize <- mean(balance$afterMatchingSumComparator/balance$afterMatchingMeanComparator,
                                         na.rm = TRUE)
-    
+
     balance$databaseId <- databaseId
     balance$targetId <- targetId
     balance$comparatorId <- comparatorId
@@ -803,7 +803,7 @@ exportDiagnostics <- function(outputFolder,
     setTxtProgressBar(pb, i/length(files))
   }
   close(pb)
-  
+
   ParallelLogger::logInfo("- preference_score_dist table")
   reference <- readRDS(file.path(outputFolder, "cmOutput", "outcomeModelReference.rds"))
   preparePlot <- function(row, reference) {
@@ -815,12 +815,12 @@ exportDiagnostics <- function(outputFolder,
                             reference$sharedPsFile[idx][1])
     if (file.exists(psFileName)) {
       ps <- readRDS(psFileName)
-      if (min(ps$propensityScore) < max(ps$propensityScore) & sum(ps$treatment == 1) > 0  & sum(ps$treatment == 0) > 0) {   ############ XL ##########
+      if (min(ps$propensityScore) < max(ps$propensityScore) & sum(ps$treatment == 1) > 2  & sum(ps$treatment == 0) > 2) {   ############ XL ##########
         ps <- CohortMethod:::computePreferenceScore(ps)
-        
+
         d1 <- density(ps$preferenceScore[ps$treatment == 1], from = 0, to = 1, n = 100)
         d0 <- density(ps$preferenceScore[ps$treatment == 0], from = 0, to = 1, n = 100)
-        
+
         result <- tibble::tibble(databaseId = databaseId,
                                  targetId = row$targetId,
                                  comparatorId = row$comparatorId,
@@ -833,7 +833,7 @@ exportDiagnostics <- function(outputFolder,
     }
     return(NULL)
   }
-  subset <- unique(reference[reference$sharedPsFile != "", 
+  subset <- unique(reference[reference$sharedPsFile != "",
                              c("targetId", "comparatorId", "analysisId")])
   data <- plyr::llply(split(subset, 1:nrow(subset)),
                       preparePlot,
@@ -845,8 +845,8 @@ exportDiagnostics <- function(outputFolder,
     colnames(data) <- SqlRender::camelCaseToSnakeCase(colnames(data))
   }
   readr::write_csv(data, fileName)
-  
-  
+
+
   ParallelLogger::logInfo("- propensity_model table")
   getPsModel <- function(row, reference) {
     idx <- reference$analysisId == row$analysisId &
@@ -876,7 +876,7 @@ exportDiagnostics <- function(outputFolder,
     }
     return(NULL)
   }
-  subset <- unique(reference[reference$sharedPsFile != "", 
+  subset <- unique(reference[reference$sharedPsFile != "",
                              c("targetId", "comparatorId", "analysisId")])
   data <- plyr::llply(split(subset, 1:nrow(subset)),
                       getPsModel,
@@ -888,7 +888,7 @@ exportDiagnostics <- function(outputFolder,
     colnames(data) <- SqlRender::camelCaseToSnakeCase(colnames(data))
   }
   readr::write_csv(data, fileName)
-  
+
   
   ParallelLogger::logInfo("- kaplan_meier_dist table")
   ParallelLogger::logInfo("  Computing KM curves")
@@ -1059,7 +1059,7 @@ prepareKaplanMeier <- function(population) {
   cutoff <- quantile(population$survivalTime, dataCutoff)
   data <- data[data$time <= cutoff, ]
   if (cutoff <= 300) {
-    xBreaks <- seq(0, cutoff, by = 50)
+    xBreaks <- seq(0, cutoff, by = 7) #================ XL =======================
   } else if (cutoff <= 600) {
     xBreaks <- seq(0, cutoff, by = 100)
   } else {
@@ -1102,12 +1102,12 @@ prepareKaplanMeier <- function(population) {
     data$comparatorSurvivalUb[idx] <- data$comparatorSurvivalUb[idx - 1]
     idx <- which(is.na(data$comparatorSurvival))
   }
-  data$targetSurvival <- round(data$targetSurvival, 4)
-  data$targetSurvivalLb <- round(data$targetSurvivalLb, 4)
-  data$targetSurvivalUb <- round(data$targetSurvivalUb, 4)
-  data$comparatorSurvival <- round(data$comparatorSurvival, 4)
-  data$comparatorSurvivalLb <- round(data$comparatorSurvivalLb, 4)
-  data$comparatorSurvivalUb <- round(data$comparatorSurvivalUb, 4)
+  data$targetSurvival <- round(data$targetSurvival, 9) #=================== XL ====================
+  data$targetSurvivalLb <- round(data$targetSurvivalLb, 9)
+  data$targetSurvivalUb <- round(data$targetSurvivalUb, 9)
+  data$comparatorSurvival <- round(data$comparatorSurvival, 9)
+  data$comparatorSurvivalLb <- round(data$comparatorSurvivalLb, 9)
+  data$comparatorSurvivalUb <- round(data$comparatorSurvivalUb, 9)
   
   # Remove duplicate (except time) entries:
   data <- data[order(data$time), ]
