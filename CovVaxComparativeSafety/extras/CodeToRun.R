@@ -43,6 +43,16 @@ databaseDescription <- "..."
 # For some database platforms (e.g. Oracle): define a schema that can be used to emulate temp tables:
 options(sqlRenderTempEmulationSchema = NULL)
 
+# Create analysis details ------------
+source("extras/CreateStudyAnalysisDetails.R")
+createAnalysesDetails("inst/settings/")
+
+# NOW, PLEASE DO: ---------------------------------------
+# 1. "BUILD, INSTALL AND RESTART" THE PACKAGE. 
+# 2. RE-RUN ALL LINE ABOVE " Create analysis details", SKIP THAT TWO LINES, AND 
+# 3. RUN THE "CovVaxComparativeSafety::execute"
+#--------------------------------------------------------
+
 CovVaxComparativeSafety::execute(connectionDetails = connectionDetails,
                                  cdmDatabaseSchema = cdmDatabaseSchema,
                                  cohortDatabaseSchema = cohortDatabaseSchema,
