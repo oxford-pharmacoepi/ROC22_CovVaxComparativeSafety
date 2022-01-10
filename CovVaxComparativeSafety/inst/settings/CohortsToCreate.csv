@@ -40,7 +40,7 @@ atlasId,atlasName,cohortId,name
 606,TTS_100ct_PE,606,TTS_100ct_PE
 607,TTS_100ct_SVT,607,TTS_100ct_SVT
 608,TTS_100ct_VTE,608,TTS_100ct_VTE
-609,TTS_100ct_all_stroke,609,TTS_100ct_all_stroke
+609,TTS_100ct_all stroke,609,TTS_100ct_all stroke
 610,TTS_100ct_any,610,TTS_100ct_any
 701,TTS_5d_ATE,701,TTS_5d_ATE
 702,TTS_5d_CVST,702,TTS_5d_CVST
