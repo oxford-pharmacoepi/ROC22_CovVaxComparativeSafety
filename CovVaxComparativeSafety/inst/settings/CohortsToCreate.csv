@@ -29,7 +29,7 @@ atlasId,atlasName,cohortId,name
 406,TTS_PE,406,TTS_PE
 407,TTS_SVT,407,TTS_SVT
 408,TTS_VTE,408,TTS_VTE
-409,TTS_all_stroke,409,TTS_all_stroke
+409,TTS_all stroke,409,TTS_all stroke
 410,TTS_any,410,TTS_any
 501,death,501,death
 601,TTS_100ct_ATE,601,TTS_100ct_ATE
